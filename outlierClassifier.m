@@ -1,5 +1,5 @@
 function re=outlierClassifier(X)
-%syms mu Outlier
+
 si=size(X,1);
 data=X;
 mu = mean(data);
